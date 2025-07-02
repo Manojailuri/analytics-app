@@ -1,0 +1,263 @@
+.oi-regular {
+  font-family: "Oi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.rubik-microbe-regular {
+  font-family: "Rubik Microbe", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.freckle-face-regular {
+  font-family: "Freckle Face", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#pchess {
+text-align: center;
+}
+
+#umgg {
+ padding-left: 15vw;
+
+}
+
+
+#maz {
+    
+            color: #ffffff;
+            /*background-color: #007bff;*/
+            background-color: #461A1B;
+            border: none;
+            border-radius: 0px;
+            padding: 12px 24px;
+            font-size: 100%;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        
+        }
+        
+#maz:hover {
+
+background-color: #5d9948;
+font-weight: 300;
+}        
+        
+.what-container {
+
+display: flex;
+text-align: center;
+  margin: 0 auto;
+  
+  padding-right: 0%;
+ 
+}
+
+#wele {
+
+padding-top: 15px;
+font-size: 100%;
+color: #000000;
+}
+
+#welee {
+
+
+
+transform: scaleX(0.5) scaleY(0.5);
+}
+        
+
+#vid {
+ left: 50%;
+/*transform: translate(6%, 50%);*/
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+p {
+	text-align: center;
+	 /* font-family: "Freckle Face", system-ui;
+	 font-family: "Climate Crisis", serif;
+	 
+	 
+	  font-weight: 100;
+	  font-style: normal;*/
+	  
+
+	  
+	padding: 10px 10%;
+	font-size: 100%;
+	
+	
+	text-align: justify;
+	color: #dbc0bd;
+}
+
+
+
+h1 {
+
+  
+
+  padding: 10px 10%;
+  
+  padding-top: 60px;
+	
+	
+	font-size: 200%;
+	/*color: #111111;*/
+	color: #dbc0bd;
+	text-align: center;
+	position: relative;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+
+		height: 100vh;
+            
+            justify-content: center;
+            align-items: center;
+            
+            /*background-color: #f0f2f5;
+            background: linear-gradient(45deg, #ffffff, #289fc9); */
+            background: radial-gradient(#ff0000, #111111);
+            animation: gradient-animation 6s ease infinite;
+            font-family: Arial, sans-serif;
+        }
+
+        .input-container {
+            position: relative;
+            width: 100%;
+            
+            
+            
+            display: flex;
+  	    margin: 0 auto;
+  	    padding-top: 0px;
+  	    padding-left: 10%;
+  	    padding-right: 10%;
+  	    padding-bottom: 30px;
+  	    
+        }
+
+        /* Styling the input field */
+        .input-field {
+            width: 100%;
+            padding: 12px 20px 12px 10px;
+            
+                font-family: "Roboto", serif;
+  		font-weight: 500;
+  		font-style: normal;
+            
+            border: 1px solid #ccc;
+            border-radius: 0px;
+            outline: none;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+
+
+
+	.input-field {
+	    background-color: #dd3333;
+	
+	}
+
+
+
+
+        .input-field:focus {
+            border-color: #111111;
+            background-color: #cccccc;
+            box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+        }
+
+        /* Label styling */
+        .input-label {
+            position: absolute;
+            padding-left: 10%;
+            top: 23%;
+            left: 10px;
+            font-size: 16px;
+            /*color: #888;*/
+            color: #111111;
+            pointer-events: none;
+            transition: 0.3s;
+            transform: translateY(-30%);
+           
+        }
+
+        /* Move label up when input is focused or has text */
+        .input-field:focus + .input-label,
+        .input-field:not(:placeholder-shown) + .input-label {
+            top: -15px;
+            left: 10px;
+            font-size: 12px;
+            color: #111111;
+            /*background-color: #f0f2f5;*/
+            
+            padding: 0 4px;
+            padding: 10px 10%;
+        }
+         .button {
+            padding: 12px 24px;
+            
+              font-family: "Roboto", serif;
+	  font-weight: 500;
+	  font-style: normal;
+            color: #fff;
+            /*background-color: #007bff;*/
+            background-color: #461A1B;
+            border: none;
+            border-radius: 0px;
+            cursor: pointer;
+            outline: none;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.1s ease;
+            
+            left: 10px;
+             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            
+        }
+
+        .button:hover {
+            background-color: #005600;
+             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .button:active {
+            transform: scale(0.98);
+        }
+        
+        
+        
+        .flexx {
+            display: flex;
+            flex-wrap: wrap;
+        }
